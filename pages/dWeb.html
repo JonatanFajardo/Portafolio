@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Font awesome -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Esteban&family=Montserrat&family=Pacifico&family=Permanent+Marker&family=Short+Stack&display=swap"
+    rel="stylesheet">
+
+  <!--  custom css file  -->
+  <link rel="stylesheet"  href="../assets/css/app.css">
+  <link rel="stylesheet" href="../assets/css/global_local.css">
+        <link rel="stylesheet" href="../assets/css/ilustracion.css">
+        <title>Desarrollo web</title>
+</head>
+<header class="header-area">
+    <div class="main-menu">
+      <div class="logo">
+        <a href="../index.html" class="">Portafolio</a>
+      </div>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon btn" for="menu-btn"><span class="navicon"></span></label>
+
+      <ul class="menu">
+        <li><a href="../index.html" class="btn button-wrapper">Inicio</a></li>
+        <li><a href="about.html"  class="btn button-wrapper">Sobre Mi</a></li>
+        <li><a href="#Habilidades" target="_blank" class="btn button-wrapper">Hablilidades</a></li>
+        <li><a
+            href="https://api.whatsapp.com/send?phone=50497523424&text=Hola,%20soy%20Jonatan%20Fajardo.%20En%20que%20le%20puedo%20servir?"
+            target="_blank" class="btn button-wrapper">Contactarme</a></li>
+      </ul>
+
+</header>
+<body>
+
+
+    <!--    <div class='container'>
+        <div class='row'>
+            <div class='col'>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam obcaecati aut nostrum repellendus tempora omnis dolores, neque modi! Exercitationem natus voluptas, velit quaerat laudantium porro dicta vitae sit ad explicabo. <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae qui rerum ipsa voluptate sed! Nisi aperiam illum sit natus? Aspernatur saepe magnam officia. Architecto eaque placeat laborum non tenetur molestiae.
+            </div>
+        </div>
+    </div> -->
+
+
+    <div id="wellcome">
+        <div class='container-full'>
+            <div class='row'>
+                <div class='col'>
+                    <h1 class="title">DISEÑO GRAFICO</h1>
+                    <p> <a href="index.html">Home</a> / Desarrollo web </p>
+                </div>
+
+                <div class="waves">
+                    <div class="waves-item" style="height: 150px; overflow: hidden;">
+                        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                            <path d="M0.00,49.98 C220.37,45.88 280.19,146.53 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #f2f2f2;"></path>
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="descripcion">
+        <div class='container-full'>
+            <div class="row">
+                <!--   <div class="waves-box">
+          
+        </div> -->
+            </div>
+            <div class='row mc'>
+
+
+                <div class='col-6 text'>
+                    <div class="item header">
+                        <img alt="cargando..!" src="../assets/img/dGrafico-Ilustration.gif" class="border-radius">
+                    </div>
+                </div>
+
+                <div class='col-6 '>
+                    <h3>Desarrollo web</h3>
+                    <p>
+                        Especializado en el Diseño y Desarrollo Web Back-End. Maquetando bajo los estándares de la
+                        W3C que
+                        proporcionan una mejor estructura de la pagina y sobre todo siempre mejorando la User
+                        Experience y User
+                        Interface (UX-UI) para que captes la atención de tu cliente con una interfaz bonita y una
+                        experiencia
+                        agradable ya sea desde una laptop o un smartphone.
+                    </p>
+                </div>
+                <div class="waves z-index">
+                    <img class="waves-item" src="../assets/img/footAbaut.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <section id="proyect">
+        <div class="container">
+            <div class="title">
+                <h2 class="text-center">Proyectos Realizados</h2>
+            </div>
+
+            <div id="category-buttons">
+                <button class="btn active" onclick="filter('all')"> Show all</button>
+                <button class="btn" onclick="filter('Csharp')"> CSharp</button>
+                <button class="btn" onclick="filter('Php')">PHP</button>
+                <button class="btn" onclick="filter('Maquetado')">Maquetado</button>
+                <button class="btn" onclick="filter('Otros')">Otros</button>
+            </div>
+
+            <!-- Portfolio Gallery Grid -->
+            <p>Debido a la saturacion determinados proyectos no han sido adaptados en su totalidad a movil, sera resuelto cuanto antes, espero su comprension.</p>
+            <div class="cards">
+                <div class="cards-item Csharp">
+                    <div class="card-header">
+                        <img src="../assets/img/DisenoGrafico/Ilustracion_4.jpg">
+                    </div>
+                    <div class="card-content">
+                        <h4 class="card-title">Gestión Colegial Web</h4>
+                        <p class="card-text">
+                            <span class="" style="font-weight: bold;"></span>
+                            <span class="" style="font-weight: bold;">Nombre de Desarrollo<br></span>
+                            GESTION_COLEGIAL_ADM <br>
+                            
+                            <span class="" style="font-weight: bold;">Descripción<br></span>
+                            Gestion colegial es un proyecto que permite agregar la información necesaria para la administación de un proyecto. esta se encuentra desarrollada en Net. Core<br>
+                            
+                            <span class="" style="font-weight: bold;">Portal<br></span>
+                            Administrativo<br>
+                            
+                            <span class="" style="font-weight: bold;">Participación<br></span>
+                            Duo<br>
+
+                            <span class="" style="font-weight: bold;">Autor<br></span>
+                            Jonatan Fajardo<br>
+                            Nayeli Guillen<br>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cards-item Csharp">
+                    <div class="card-header">
+                        <img src="../assets/img/DisenoGrafico/Ilustracion_4.jpg">
+                    </div>
+                    <div class="card-content">
+                        <h4 class="card-title">Gestión Colegial Desktop</h4>
+                        <p class="card-text">
+                            <span class="" style="font-weight: bold;"></span>
+                            <span class="" style="font-weight: bold;">Nombre de Desarrollo<br></span>
+                            GESTION_COLEGIAL_DESKTOP <br>
+                            
+                            <span class="" style="font-weight: bold;">Descripción<br></span>
+                            La version escritorio de Gestion colegial es un proyecto que permite agregar la información necesaria para la administación de un proyecto. Esta se encuentra desarrollada en Net. Framework<br>
+                            
+                            <span class="" style="font-weight: bold;">Portal<br></span>
+                            Administrativo<br>
+                            
+                            <span class="" style="font-weight: bold;">Participación<br></span>
+                            Completamente.
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cards-item Csharp">
+                    <div class="card-header">
+                        <img src="../assets/img/DisenoGrafico/Ilustracion_4.jpg">
+                    </div>
+                    <div class="card-content">
+                        <h4 class="card-title">Gestión Colegial Api</h4>
+                        <p class="card-text">
+                            <span class="" style="font-weight: bold;"></span>
+                            <span class="" style="font-weight: bold;">Nombre de Desarrollo<br></span>
+                            GESTION_COLEGIAL_API <br>
+                            
+                            <span class="" style="font-weight: bold;">Descripción<br></span>
+                            Aplicacion la cual puede permitir el acceso a la base de datos de gestión colegial.<br>
+                            
+                            <span class="" style="font-weight: bold;">Portal<br></span>
+                            Administrativo<br>
+                            
+                            <span class="" style="font-weight: bold;">Participación<br></span>
+                            Duo<br>
+
+                            <span class="" style="font-weight: bold;">Autor<br></span>
+                            Jonatan Fajardo<br>
+                            Nayeli Guillen<br>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cards-item Maquetado">
+                    <div class="card-header">
+                        <img src="../assets/img/DisenoGrafico/Publicida_1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <h4 class="card-title">Maquetado</h4>
+                        <p class="card-text">Maquetado, Redes Sociales</p>
+                    </div>
+                </div>
+
+                <div class="cards-item Php">
+                    <div class="card-header">
+                        <img src="../assets/img/DisenoGrafico/Tarjeta_1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <h4 class="card-title">PizzaDely</h4>
+                        <p class="card-text">Tarjeta</p>
+                    </div>
+                </div>
+
+                <div class="cards-item Csharp">
+                    <div class="card-header">
+                        <img src="../assets/img/DisenoGrafico/Ilustracion_1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <h4 class="card-title">InstaHelp</h4>
+                        <p class="card-text">
+                            <span class="" style="font-weight: bold;"></span>
+                            <span class="" style="font-weight: bold;">Nombre de Desarrollo<br></span>
+                            
+                            AHM_INSTA_HELP_ADM <br>
+                            
+                            <span class="" style="font-weight: bold;">Descripción<br></span>
+                            
+                            <span class="" style="font-weight: bold;">Portal<br></span>
+                            Administrativo<br>
+                            
+                            <span class="" style="font-weight: bold;">Participación<br></span>
+                            -Desarrollo de propuesta de logo *ganador*.<br>
+                            -Equipo de diseño para el proyecto *admin* y *web* .<br>
+                            -Participación en enquipo encargado de reportes.<br>
+                            -Equipo encargado de Graficas.<br>
+                            -CRUD de Departamentos.<br>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cards-item Csharp">
+                    <div class="card-header">
+                        <img src="../assets/img/DisenoGrafico/Publicida_2.jpg">
+                    </div>
+                    <div class="card-content">
+                        <h4 class="card-title">PetsHome</h4>
+                        <p class="card-text">
+                            <span class="" style="font-weight: bold;"></span>
+                            <span class="" style="font-weight: bold;">Nombre de Desarrollo<br></span>
+                            PetsHome <br>
+                            
+                            <span class="" style="font-weight: bold;">Descripción<br></span>
+                            PetsHome brinda ayuda para registrar la información que un Refugio de perros conlleva la cual esta desarrollado en Net. Core<br>
+                            
+                            <span class="" style="font-weight: bold;">Portal<br></span>
+                            Administrativo<br>
+                            
+                            <span class="" style="font-weight: bold;">Participación<br></span>
+                            Completamente.
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cards-item Csharp">
+                    <div class="card-header">
+                        <img src="../assets/img/DisenoGrafico/Publicida_2.jpg">
+                    </div>
+                    <div class="card-content">
+                        <h4 class="card-title">Promedical</h4>
+                        <p class="card-text">
+                            <span class="" style="font-weight: bold;"></span>
+                            <span class="" style="font-weight: bold;">Nombre de Desarrollo<br></span>
+                            PROMEDICAL <br>
+                            
+                            <span class="" style="font-weight: bold;">Descripción<br></span>
+                            Proyecto API para portal administrativo de un sistema medico con arquitectura onion, uso de unit of work y patrón repositorio, con swagger implementado.<br>
+                            
+                            <span class="" style="font-weight: bold;">Portal<br></span>
+                            Administrativo<br>
+                            
+                            <span class="" style="font-weight: bold;">Participación<br></span>
+                            Completamente.
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+ 
+    
+    <div class="advertencia">
+          <div class="container-full">
+            <div class="row">
+                <div class="col-11 text">
+            <p><span>Advertencia</span> esta pagina esta en desarrollo</p></div>
+            </div>
+          </div>
+        </div>
+    
+    
+    <div class='container-full' id="contact">
+        <div class="container">
+          <div class='row'>
+            <div class='col-8'>
+              <h2>¿Preparado para comenzar?</h2>
+            </div>
+            <div class="col-4">
+              <a href="https://api.whatsapp.com/send?phone=50497523424&text=Hola,%20soy%20Jonatan%20Fajardo.%20En%20que%20le%20puedo%20servir?"
+                target="_blank" class="btn button-wrapper">Contactame</a>
+            </div>
+          </div>
+        </div>
+      </div>  
+      
+      
+      <!--  Jquery js file  -->
+      <script src="../assets/js/jquery-min.js"></script>
+    
+      <!--  isotope js library  -->
+      <script src="../assets/js/isotope/isotope.min.js"></script>
+    
+      <!--  custom js file  -->
+      <script src="../assets/js/Main.js"></script>
+    
+      <!-- font awesonme -->
+      <script src="../https://kit.fontawesome.com/1f52c15500.js" crossorigin="anonymous"></script>
+    
+      <!--  Magnific popup script file  -->
+      <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+
+</body>
+
+</html>
