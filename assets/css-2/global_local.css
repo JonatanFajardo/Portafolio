@@ -318,9 +318,9 @@ box-shadow: 0px -10px 31px -13px rgba(0,0,0,0.75); */
   display: none;
 }
 
-#proyect .cards-item .card-text {
+/* #proyect .cards-item .card-text {
   text-transform: capitalize;
-}
+} */
 
 #proyect .row:after {
   content: "";

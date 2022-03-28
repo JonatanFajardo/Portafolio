@@ -581,9 +581,9 @@ img {
   display: none;
 }
 
-#proyect .cards-item .card-text {
+/* #proyect .cards-item .card-text {
   text-transform: capitalize;
-}
+} */
 
 #proyect .row:after {
   content: "";
